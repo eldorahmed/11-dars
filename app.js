@@ -214,3 +214,68 @@
 //   result.push(obj[key]);
 // }
 // console.log(result);
+
+// 5-masala
+
+// const grades = [
+//   { name: "Fizika", grade: 4, kredit: 6 },
+//   { name: "Matematika", grade: 5, kredit: 6 },
+//   { name: "Tarix", grade: 4, kredit: 4 },
+//   { name: "Dasturlash", grade: 5, kredit: 8 },
+//   { name: "Kibrxavfsizlik", grade: 4, kredit: 8 },
+// ];
+// let sumGrade = 0;
+// let sumkredit = 0;
+// grades.forEach((el) => {
+//   sumGrade += el.grade * el.kredit;
+//   sumkredit += el.kredit;
+// });
+// console.log(sumGrade / sumkredit);
+
+// 6-masala
+
+// const rightAnswers = {
+//   1: "B",
+//   2: "A",
+//   3: "C",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "A",
+//   8: "D",
+//   9: "A",
+//   10: "B",
+// };
+// const myAnswers = {
+//   1: "B",
+//   2: "A",
+//   3: "D",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "B",
+//   8: "C",
+//   9: "A",
+//   10: "C",
+// };
+
+// let correct = 0;
+// let wrong = 0;
+
+// for (ask in rightAnswers) {
+//   if (rightAnswers[ask] === myAnswers[ask]) {
+//     correct++;
+//   } else {
+//     wrong++;
+//   }
+// }
+// console.log(correct);
+// console.log(wrong);
+
+// 7-masala
+// let n = 5;
+// let j = 1;
+// for (i = n; i >= 1; i--) {
+//   console.log(i ** j);
+//   j++;
+// }
