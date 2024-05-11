@@ -151,3 +151,66 @@
 //   return result;
 // }
 // console.log(minMaxAv(6, 1, 9));
+
+// 2-masala
+
+// const books = [
+//   {
+//     title: "Halqa",
+//     author: "Akrom Malik",
+//     alreadyRead: false,
+//   },
+//   {
+//     title: "Dunyo ishlari",
+//     author: "O'tkir Hoshimov",
+//     alreadyRead: true,
+//   },
+//   {
+//     title: "Vaqtning qadri",
+//     author: "Abdulfattoh Abu G'udda",
+//     alreadyRead: false,
+//   },
+// ];
+// books.forEach((el, index) => {
+//   if (el.alreadyRead == true) {
+//     console.log(
+//       index + 1 + ". " + el.author + "ning " + el.title + " kitobi o'qilgan"
+//     );
+//   } else {
+//     console.log(
+//       index + 1 + ". " + el.author + "ning " + el.title + " kitobi o'qilmagan"
+//     );
+//   }
+// });
+
+// 3-masala
+
+// const products = [
+//   { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
+//   { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
+//   { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
+//   { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
+//   { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
+// ];
+// let sum = 0;
+// products.forEach((el) => {
+//   let result = el.price - (el.price / 100) * el.discount;
+//   sum += result;
+//   console.log(result);
+// });
+// console.log("jami:", sum);
+
+// 4-masala
+
+// const obj = {
+//   it: 20,
+//   mushuk: 10,
+//   sigir: 200,
+//   tovuq: 2,
+// };
+// let result = [];
+// for (let key in obj) {
+//   result.push(key);
+//   result.push(obj[key]);
+// }
+// console.log(result);
